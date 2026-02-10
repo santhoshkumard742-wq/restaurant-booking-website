@@ -15,16 +15,17 @@ const About: React.FC = () => {
             className="relative"
           >
             <div className="relative z-10">
-              <img 
-                src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=1974" 
-                alt="Chef preparing food" 
+              <img
+                src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=1974"
+                alt="Chef preparing food"
                 className="rounded-2xl shadow-2xl"
               />
             </div>
-            <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-gold/10 -z-10 rounded-full blur-3xl" />
-            <div className="absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/2 bg-brown-900 p-8 rounded-xl shadow-2xl hidden md:block">
-              <span className="text-gold text-5xl font-serif block mb-2">15+</span>
-              <span className="text-white text-sm uppercase tracking-widest font-bold">Years of Excellence</span>
+            <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-gold/10 -z-10 rounded-full blur-3xl" >
+              <div className="absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/2 bg-brown-900 p-8 rounded-xl shadow-2xl hidden md:block">
+                <span className="text-gold text-5xl font-serif block mb-2">15+</span>
+                <span className="text-white text-sm uppercase tracking-widest font-bold">Years of Excellence</span>
+              </div>
             </div>
           </motion.div>
 
@@ -39,11 +40,11 @@ const About: React.FC = () => {
               A Symphony of Spices and Sophistication
             </h2>
             <p className="text-brown-700 text-lg mb-8 leading-relaxed">
-              Founded in 2008, Spice Garden began with a simple mission: to elevate the perception of traditional cuisine. 
-              Our chefs blend age-old family recipes with contemporary culinary artistry to create dishes that are both 
+              Founded in 2008, Spice Garden began with a simple mission: to elevate the perception of traditional cuisine.
+              Our chefs blend age-old family recipes with contemporary culinary artistry to create dishes that are both
               familiar and wonderfully surprising.
             </p>
-            
+
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-10">
               <div className="border-l-2 border-gold pl-4">
                 <h4 className="font-bold text-brown-900 mb-1">Authentic</h4>
